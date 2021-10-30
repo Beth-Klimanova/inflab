@@ -1,3 +1,3 @@
 FROM python:3
-ADD maim.py /
+ADD main.py /
 CMD ["python","-u,"./main.py"]
