@@ -1,0 +1,9 @@
+
+
+version: "3"
+
+
+
+services:
+ moe:
+  image: docker pull cr.yandex/crpgoeg72qp71e9eos4d/laba:latest
