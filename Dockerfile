@@ -1,3 +1,7 @@
-FROM python:3
-ADD main.py /
-CMD ["python","-u,"./main.py"]
+FROM python
+
+WORKDIR /app
+
+COPY . .
+
+CMD ["python", "main.py"]
