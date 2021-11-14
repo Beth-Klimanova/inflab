@@ -1,9 +1,5 @@
-
-
-version: "3"
-
-
-
+version: '2'
 services:
- moe:
-  image: cr.yandex/crpgoeg72qp71e9eos4d/laba:latest
+  hello_world:
+    image: ubuntu
+    command: [/bin/echo, 'Hello world']
